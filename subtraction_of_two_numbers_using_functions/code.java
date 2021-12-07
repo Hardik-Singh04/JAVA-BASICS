@@ -1,7 +1,7 @@
 import java.util.*;
 class subtract
 {
-    int add(int a,int b)
+    int subtract(int a,int b)
     {
         int diff=0;
         diff=a-b;
@@ -16,7 +16,7 @@ class subtract
         System.out.println("Enter two number for subtraction :");
         a=in.nextInt();
         b=in.nextInt();
-        diff=obj.add(a,b);
+        diff=obj.subtract(a,b);
         System.out.println("Value of differnce is :"+diff);
     }
 }
