@@ -21,7 +21,7 @@ class happyfun
     {
         happyfun obj=new happyfun();
         Scanner in=new Scanner(System.in);
-        int num,sum=0;;
+        int num,sum=0;
         System.out.println("Enter number for checking for Happy Number :");
         num=in.nextInt();
         sum=obj.check(num);
