@@ -13,7 +13,7 @@ class smallest
         {
             small=a;
         }
-        if(b<c&&b<a)
+        else if(b<c&&b<a)
         {
             small=b;
         }
