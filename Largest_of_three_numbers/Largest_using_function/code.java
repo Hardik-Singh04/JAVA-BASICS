@@ -8,7 +8,7 @@ class largestfun
         {
             max=a;
         }
-        if(b>c&&b>a)
+         else if(b>c&&b>a)
         {
             max=b;
         }
