@@ -1,5 +1,5 @@
 import java.util.*;
-class pattern
+class patternfun
 {
     void print(int num)
     {
@@ -15,7 +15,7 @@ class pattern
     }
     public static void main(String args[])
     {
-        pattern obj=new pattern();
+        patternfun obj=new patternfun();
         Scanner in=new Scanner(System.in);
         int num;
         System.out.println("Enter number of rows :");
