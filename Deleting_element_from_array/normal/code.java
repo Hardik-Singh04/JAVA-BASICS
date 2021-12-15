@@ -26,11 +26,28 @@ class delete
                 size--;
             }
         }
+        for(int i=0;i<size;i++)
+        {
+            if(arr[i]==num)
+            {
+                for(int j=i;j<size-1;j++)
+                {
+                    arr[j]=arr[j+1];
+                }
+                size--;
+            }
+        }
+        if(size==0)
+        {
+            System.out.println("Array is empty :");
+        }
+        else
+        {
         System.out.println("Elements after deleting element :");
          for(int i=0;i<size;i++)
         {
             System.out.println(arr[i]);
         }
-       
+        }
     }
 }
