@@ -1,7 +1,7 @@
 import java.util.*;
 class armstrong
 {
-    public static void main(String args[])
+public static void main(String args[])
     {
         Scanner in=new Scanner(System.in);
         int num,temp,sum=0,rem;
