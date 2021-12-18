@@ -9,7 +9,7 @@ class information
         System.out.println("Enter your choice :");
         ch=in.nextInt();
         switch(ch)
-        {
+        {  
             case 1:System.out.println("Day : Thursday");
                 break;
             case 2:System.out.println("Date : 09");
