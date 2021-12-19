@@ -1,7 +1,7 @@
 import java.util.*;
 class buzzfun
 {
-    int check(int num)
+   int check(int num)
     {
         if(num%10==7 || num%7==0)
         {
