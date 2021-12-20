@@ -14,7 +14,7 @@ class buzzfun
     }
     public static void main(String args[])
     {
-        buzzfun obj=new buzzfun();
+         buzzfun obj=new buzzfun();
         Scanner in=new Scanner(System.in);
         int num,res;
         System.out.println("Enter number for checking for Buzz Number :");
