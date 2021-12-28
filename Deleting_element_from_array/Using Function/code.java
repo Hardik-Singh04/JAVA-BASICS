@@ -38,3 +38,4 @@ class delete
         obj.calc(arr,num,size);
     }
 }
+
