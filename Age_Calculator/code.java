@@ -13,5 +13,4 @@ public class AgeCalc {
 		System.out.println(birthDate);
 		System.out.println(years);
 	}
-
 }
